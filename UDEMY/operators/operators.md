@@ -87,7 +87,8 @@ c = a > b ? a : b;
     int b = ( a << 4 )
     //becomes
     0000 0001 0100 0000
-    b's value is 320 ```
+    b's value is 320
+```
 
 # Right Shift ( >> ) :
  operation of this operator is comppiler dependent, it wil shift n bits to the right. newly formed leftmost bits become 0 in some compilers and are filled with previous sign bit in others(which is standard)
@@ -97,9 +98,9 @@ c = a > b ? a : b;
 
 # Arithmetic operators : 
  += , -+ , /= , *= 
-
+```
  int a = 10 ;
  a + = 2; // adds 2 to the current value of a
  a * = 2; // multiplies current value of a by 2; 
  a * = 2 + 2;  the + operator has higher priority so 2 + 2 is evaluated first, then multiplied by 10 so a becomes 40.
-
+```
