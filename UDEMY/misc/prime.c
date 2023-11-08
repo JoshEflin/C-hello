@@ -16,7 +16,7 @@ int main() {
      if (count==2) {
          printf("%d is prime\n", n );
         }else {
-            printf("%d is not prime\n", n);
+         printf("%d is not prime\n", n);
         }
 
      return 0;
